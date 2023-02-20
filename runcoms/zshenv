@@ -14,5 +14,4 @@ export VIRTUALENVWRAPPER_PYTHON=$(which python)
 export VIRTUALENVWRAPPER_VIRTUALENV=$(which virtualenv)
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--system-site-packages'
 
-export VISUAL="vim"
-export EDITOR="$VISUAL"
+. "$HOME/.cargo/env"
